@@ -113,7 +113,7 @@
       "name": "TNTBIOME",
       "type": "biome",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tntbiome"
