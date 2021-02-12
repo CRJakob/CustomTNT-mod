@@ -3,6 +3,8 @@
   "itemGroup.tabcustom_tnt": "Custom TNT",
   "gamerule.instantTNTTimer": "Wie lange (In sek.) das Sofortige TNT braucht, zu explodieren",
   "mod.description": "Fügt ein komplett verstellbares TNT zu minecraft hinzu",
+  "biome.tnt.tntbiome": "TNT",
+  "item.tnt.tnt": "TNT Portal Igniter",
   "gamerule.instantTNTStrength": "Wie stark die explosion des Sofortigen TNTs ist",
   "block.tnt.custom_tnt": "Custom TNT"
 }
