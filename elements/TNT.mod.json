@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:TNTBIOME"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:InstantTNT"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:InstantTNT"
+    },
+    "airColor": {
+      "value": -16763905,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:InstantTNT"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 5,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "TNT Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:CustomTNT"
+    },
+    "texture": "ingiter",
+    "portalTexture": "instanttntside",
+    "enablePortal": true
+  }
+}

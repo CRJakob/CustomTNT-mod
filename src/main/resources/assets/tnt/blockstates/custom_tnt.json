@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tnt:block/custom_tnt"
+    }
+  }
+}

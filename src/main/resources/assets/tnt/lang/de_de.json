@@ -1,9 +1,13 @@
 {
   "block.test.instant_tnt": "Sofortiges TNT",
   "item.tnt.tnt_disc": "Tnt Disc",
+  "itemGroup.tabcustom_tnt": "Custom TNT",
   "gamerule.instantTNTTimer": "Wie lange (In sek.) das Sofortige TNT braucht, zu explodieren",
   "mod.description": "Fügt ein komplett verstellbares TNT zu minecraft hinzu",
   "item.tnt.tnt_disc.desc": "Creeper - Primed",
+  "biome.tnt.tntbiome": "TNT",
+  "item.tnt.tnt": "TNT Portal Igniter",
   "gamerule.instantTNTStrength": "Wie stark die explosion des Sofortigen TNTs ist",
-  "block.tnt.instant_tnt": "Instant TNT"
+  "block.tnt.instant_tnt": "Instant TNT",
+  "block.tnt.custom_tnt": "Custom TNT"
 }
