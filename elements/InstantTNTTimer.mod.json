@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "description": "How long the instant TNT block needs to explode",
+    "category": "MISC",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

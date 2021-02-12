@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tnt:block/instant_tnt"
+    }
+  }
+}

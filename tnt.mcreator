@@ -1,0 +1,143 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "InstantTNT",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "instant_tnt"
+    },
+    {
+      "name": "InstantTNTTimer",
+      "type": "gamerule",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "instantTNTTimer",
+      "metadata": {
+        "type": "number"
+      }
+    },
+    {
+      "name": "InstantTNTStrength",
+      "type": "gamerule",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "instantTNTStrength",
+      "metadata": {
+        "type": "number"
+      }
+    },
+    {
+      "name": "InstantTNTExplode",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "instant_tnt_explode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InstantTNTredstone",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "instant_tn_tredstone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.test.instant_tnt": "Instant TNT",
+      "gamerule.instantTNTTimer": "How long the instant TNT block needs to explode",
+      "mod.description": "Adds an fully customizable TNT to minecraft",
+      "gamerule.instantTNTStrength": "How bog the explosion of the Instant TNT is",
+      "block.tnt.instant_tnt": "Custom TNT"
+    },
+    "de_de": {
+      "block.test.instant_tnt": "Sofortiges TNT",
+      "gamerule.instantTNTTimer": "Wie lange (In sek.) das Sofortige TNT braucht, zu explodieren",
+      "mod.description": "Fügt ein komplett verstellbares TNT zu minecraft hinzu",
+      "gamerule.instantTNTStrength": "Wie stark die explosion des Sofortigen TNTs ist",
+      "block.tnt.instant_tnt": "Instant TNT"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "tnt",
+    "modName": "Instant TNT",
+    "version": "2.0.0",
+    "description": "Adds a new fully customizable TNT to minecraft",
+    "author": "EnderBoy2000",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "instatnt",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.enderstudios.instanttnt",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100103117
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "description": "How bog the explosion of the Instant TNT is",
+    "category": "MISC",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 10
+  }
+}
