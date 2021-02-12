@@ -146,6 +146,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "creeperawwman"
+    },
+    {
+      "name": "CustomCreeper",
+      "type": "mob",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "custom_creeper"
     }
   ],
   "variable_elements": [],
@@ -165,6 +174,8 @@
       "itemGroup.tabcustom_tnt": "Custom TNT",
       "gamerule.instantTNTTimer": "How long the instant TNT block needs to explode",
       "mod.description": "Adds an fully customizable TNT to minecraft",
+      "item.tnt.custom_creeper_spawn_egg": "Custom Creeper Spawn Egg",
+      "entity.tnt.custom_creeper": "Custom Creeper",
       "gamerule.instantTNTStrength": "How bog the explosion of the Instant TNT is",
       "block.tnt.custom_tnt": "Custom TNT",
       "subtitles.revenge": ""
@@ -174,6 +185,8 @@
       "itemGroup.tabcustom_tnt": "Custom TNT",
       "gamerule.instantTNTTimer": "Wie lange (In sek.) das Sofortige TNT braucht, zu explodieren",
       "mod.description": "Fügt ein komplett verstellbares TNT zu minecraft hinzu",
+      "item.tnt.custom_creeper_spawn_egg": "Custom Creeper Spawn Egg",
+      "entity.tnt.custom_creeper": "Custom Creeper",
       "gamerule.instantTNTStrength": "Wie stark die explosion des Sofortigen TNTs ist",
       "block.tnt.custom_tnt": "Custom TNT",
       "subtitles.revenge": ""

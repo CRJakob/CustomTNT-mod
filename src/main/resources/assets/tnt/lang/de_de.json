@@ -3,6 +3,8 @@
   "itemGroup.tabcustom_tnt": "Custom TNT",
   "gamerule.instantTNTTimer": "Wie lange (In sek.) das Sofortige TNT braucht, zu explodieren",
   "mod.description": "Fügt ein komplett verstellbares TNT zu minecraft hinzu",
+  "item.tnt.custom_creeper_spawn_egg": "Custom Creeper Spawn Egg",
+  "entity.tnt.custom_creeper": "Custom Creeper",
   "gamerule.instantTNTStrength": "Wie stark die explosion des Sofortigen TNTs ist",
   "block.tnt.custom_tnt": "Custom TNT",
   "subtitles.revenge": ""
