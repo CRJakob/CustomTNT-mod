@@ -1,10 +1,8 @@
 {
   "block.test.instant_tnt": "Instant TNT",
   "itemGroup.tabcustom_tnt": "Custom TNT",
-  "item.tnt.music_disc.desc": "TryHardNinja - Revenge",
   "gamerule.instantTNTTimer": "How long the instant TNT block needs to explode",
   "mod.description": "Adds an fully customizable TNT to minecraft",
-  "item.tnt.music_disc": "Music Disc",
   "gamerule.instantTNTStrength": "How bog the explosion of the Instant TNT is",
   "block.tnt.custom_tnt": "Custom TNT",
   "subtitles.revenge": ""

@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "command",
+  "definition": {
+    "commandName": "CREEPER_AWW_MAN",
+    "permissionLevel": 1,
+    "onCommandExecuted": {
+      "name": "CREEPERAWWMANCommandExecuted"
+    }
+  }
+}

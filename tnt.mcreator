@@ -110,13 +110,42 @@
       "registry_name": "custom_tnt"
     },
     {
-      "name": "MusicDisc",
-      "type": "musicdisc",
+      "name": "CREEPERAWWMANCommandExecuted",
+      "type": "procedure",
       "sortid": 7,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "music_disc"
+      "registry_name": "creeperawwman_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CREEPERAWWMAN",
+      "type": "command",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeperawwman"
     }
   ],
   "variable_elements": [],
@@ -134,10 +163,8 @@
     "en_us": {
       "block.test.instant_tnt": "Instant TNT",
       "itemGroup.tabcustom_tnt": "Custom TNT",
-      "item.tnt.music_disc.desc": "TryHardNinja - Revenge",
       "gamerule.instantTNTTimer": "How long the instant TNT block needs to explode",
       "mod.description": "Adds an fully customizable TNT to minecraft",
-      "item.tnt.music_disc": "Music Disc",
       "gamerule.instantTNTStrength": "How bog the explosion of the Instant TNT is",
       "block.tnt.custom_tnt": "Custom TNT",
       "subtitles.revenge": ""
@@ -145,10 +172,8 @@
     "de_de": {
       "block.test.instant_tnt": "Sofortiges TNT",
       "itemGroup.tabcustom_tnt": "Custom TNT",
-      "item.tnt.music_disc.desc": "Creeper - prime",
       "gamerule.instantTNTTimer": "Wie lange (In sek.) das Sofortige TNT braucht, zu explodieren",
       "mod.description": "Fügt ein komplett verstellbares TNT zu minecraft hinzu",
-      "item.tnt.music_disc": "Music Disc",
       "gamerule.instantTNTStrength": "Wie stark die explosion des Sofortigen TNTs ist",
       "block.tnt.custom_tnt": "Custom TNT",
       "subtitles.revenge": ""
