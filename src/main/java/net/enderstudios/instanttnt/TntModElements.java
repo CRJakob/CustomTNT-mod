@@ -45,6 +45,7 @@ public class TntModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public TntModElements() {
+		sounds.put(new ResourceLocation("tnt", "revenge"), new net.minecraft.util.SoundEvent(new ResourceLocation("tnt", "revenge")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("tnt").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

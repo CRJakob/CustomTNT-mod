@@ -1,1 +1,11 @@
-{}
+{
+  "revenge": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "tnt:minecraft_revenge_song_with_lyrics",
+        "stream": true
+      }
+    ]
+  }
+}
