@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnt:blocks/instanttntbottom",
+    "up": "tnt:blocks/instanttntup",
+    "north": "tnt:blocks/instanttntside",
+    "east": "tnt:blocks/instanttntside",
+    "south": "tnt:blocks/instanttntside",
+    "west": "tnt:blocks/instanttntside",
+    "particle": "tnt:blocks/instanttntbottom"
+  }
+}

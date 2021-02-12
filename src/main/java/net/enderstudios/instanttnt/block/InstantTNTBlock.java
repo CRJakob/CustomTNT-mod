@@ -30,7 +30,7 @@ import java.util.Collections;
 
 @TntModElements.ModElement.Tag
 public class InstantTNTBlock extends TntModElements.ModElement {
-	@ObjectHolder("tnt:instant_tnt")
+	@ObjectHolder("tnt:custom_tnt")
 	public static final Block block = null;
 	public InstantTNTBlock(TntModElements instance) {
 		super(instance, 1);
@@ -44,7 +44,7 @@ public class InstantTNTBlock extends TntModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.TNT).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
-			setRegistryName("instant_tnt");
+			setRegistryName("custom_tnt");
 		}
 
 		@Override

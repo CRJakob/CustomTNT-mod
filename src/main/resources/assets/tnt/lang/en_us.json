@@ -3,5 +3,5 @@
   "gamerule.instantTNTTimer": "How long the instant TNT block needs to explode",
   "mod.description": "Adds an fully customizable TNT to minecraft",
   "gamerule.instantTNTStrength": "How bog the explosion of the Instant TNT is",
-  "block.tnt.instant_tnt": "Custom TNT"
+  "block.tnt.custom_tnt": "Custom TNT"
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "tnt:block/instant_tnt",
+  "parent": "tnt:block/custom_tnt",
   "display": {
     "thirdperson": {
       "rotation": [
