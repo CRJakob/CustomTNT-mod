@@ -101,34 +101,13 @@
       "registry_name": "tnt_disc"
     },
     {
-      "name": "TNTBIOME",
-      "type": "biome",
-      "sortid": 7,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tntbiome"
-    },
-    {
       "name": "CustomTNT",
       "type": "tab",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "custom_tnt"
-    },
-    {
-      "name": "TNT",
-      "type": "dimension",
-      "sortid": 7,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tnt",
-      "metadata": {
-        "ep": true
-      }
     }
   ],
   "variable_elements": [],
@@ -140,8 +119,6 @@
       "gamerule.instantTNTTimer": "How long the instant TNT block needs to explode",
       "mod.description": "Adds an fully customizable TNT to minecraft",
       "item.tnt.tnt_disc.desc": "Creeper - Primed",
-      "item.tnt.tnt": "TNT Portal Igniter",
-      "biome.tnt.tntbiome": "TNT",
       "gamerule.instantTNTStrength": "How bog the explosion of the Instant TNT is",
       "block.tnt.custom_tnt": "Custom TNT"
     },
@@ -152,8 +129,6 @@
       "gamerule.instantTNTTimer": "Wie lange (In sek.) das Sofortige TNT braucht, zu explodieren",
       "mod.description": "Fügt ein komplett verstellbares TNT zu minecraft hinzu",
       "item.tnt.tnt_disc.desc": "Creeper - Primed",
-      "biome.tnt.tntbiome": "TNT",
-      "item.tnt.tnt": "TNT Portal Igniter",
       "gamerule.instantTNTStrength": "Wie stark die explosion des Sofortigen TNTs ist",
       "block.tnt.custom_tnt": "Custom TNT"
     }
