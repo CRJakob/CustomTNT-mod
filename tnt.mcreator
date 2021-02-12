@@ -2,15 +2,6 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "InstantTNT",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "instant_tnt"
-    },
-    {
       "name": "InstantTNTTimer",
       "type": "gamerule",
       "sortid": 2,
@@ -122,7 +113,7 @@
       "name": "CustomTNT",
       "type": "tab",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "custom_tnt"
@@ -131,7 +122,7 @@
       "name": "TNT",
       "type": "dimension",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tnt",
@@ -145,12 +136,14 @@
   "language_map": {
     "en_us": {
       "block.test.instant_tnt": "Instant TNT",
+      "item.tnt.tnt_disc": "Tnt Disc",
       "gamerule.instantTNTTimer": "How long the instant TNT block needs to explode",
       "mod.description": "Adds an fully customizable TNT to minecraft",
+      "item.tnt.tnt_disc.desc": "Creeper - Primed",
       "item.tnt.tnt": "TNT Portal Igniter",
+      "biome.tnt.tntbiome": "TNT",
       "gamerule.instantTNTStrength": "How bog the explosion of the Instant TNT is",
-      "block.tnt.custom_tnt": "Custom TNT",
-      "block.tnt.instant_tnt": "Custom TNT"
+      "block.tnt.custom_tnt": "Custom TNT"
     },
     "de_de": {
       "block.test.instant_tnt": "Sofortiges TNT",
@@ -162,7 +155,6 @@
       "biome.tnt.tntbiome": "TNT",
       "item.tnt.tnt": "TNT Portal Igniter",
       "gamerule.instantTNTStrength": "Wie stark die explosion des Sofortigen TNTs ist",
-      "block.tnt.instant_tnt": "Instant TNT",
       "block.tnt.custom_tnt": "Custom TNT"
     }
   },

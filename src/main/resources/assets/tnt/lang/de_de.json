@@ -8,6 +8,5 @@
   "biome.tnt.tntbiome": "TNT",
   "item.tnt.tnt": "TNT Portal Igniter",
   "gamerule.instantTNTStrength": "Wie stark die explosion des Sofortigen TNTs ist",
-  "block.tnt.instant_tnt": "Instant TNT",
   "block.tnt.custom_tnt": "Custom TNT"
 }
