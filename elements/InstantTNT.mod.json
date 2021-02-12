@@ -33,7 +33,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "REDSTONE"
+      "value": "CUSTOM:CustomTNT"
     },
     "destroyTool": "Not specified",
     "customDrop": {

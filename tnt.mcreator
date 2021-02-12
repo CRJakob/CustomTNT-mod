@@ -99,6 +99,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "CustomTNT",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "custom_tnt"
     }
   ],
   "variable_elements": [],
@@ -106,6 +115,7 @@
   "language_map": {
     "en_us": {
       "block.test.instant_tnt": "Instant TNT",
+      "itemGroup.tabcustom_tnt": "Custom TNT",
       "gamerule.instantTNTTimer": "How long the instant TNT block needs to explode",
       "mod.description": "Adds an fully customizable TNT to minecraft",
       "gamerule.instantTNTStrength": "How bog the explosion of the Instant TNT is",
@@ -113,6 +123,7 @@
     },
     "de_de": {
       "block.test.instant_tnt": "Sofortiges TNT",
+      "itemGroup.tabcustom_tnt": "Custom TNT",
       "gamerule.instantTNTTimer": "Wie lange (In sek.) das Sofortige TNT braucht, zu explodieren",
       "mod.description": "Fügt ein komplett verstellbares TNT zu minecraft hinzu",
       "gamerule.instantTNTStrength": "Wie stark die explosion des Sofortigen TNTs ist",
@@ -121,11 +132,11 @@
   },
   "workspaceSettings": {
     "modid": "tnt",
-    "modName": "Instant TNT",
+    "modName": "Custom TNT",
     "version": "2.0.0",
     "description": "Adds a new fully customizable TNT to minecraft",
-    "author": "EnderBoy2000",
-    "websiteURL": "https://mcreator.net",
+    "author": "EnderBoy2000; Mehmetagatr",
+    "websiteURL": "https://enderboy2000.wixsite.com/enderboy2000",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

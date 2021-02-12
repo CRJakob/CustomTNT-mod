@@ -5,11 +5,11 @@ license="All Rights Reserved"
 [[mods]]
 modId="tnt"
 version="2.0.0"
-displayName="Instant TNT"
+displayName="Custom TNT"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+displayURL="https://enderboy2000.wixsite.com/enderboy2000"
 logoFile="logo.png"
-authors="EnderBoy2000"
+authors="EnderBoy2000; Mehmetagatr"
 description='''
 Adds a new fully customizable TNT to minecraft
 '''

@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "Custom TNT",
+    "icon": {
+      "value": "CUSTOM:InstantTNT"
+    },
+    "showSearch": false
+  }
+}

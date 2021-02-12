@@ -11,7 +11,6 @@ import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.entity.player.PlayerEntity;
@@ -21,6 +20,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.enderstudios.instanttnt.procedures.InstantTNTExplodeProcedure;
+import net.enderstudios.instanttnt.itemgroup.CustomTNTItemGroup;
 import net.enderstudios.instanttnt.TntModElements;
 
 import java.util.Map;
@@ -39,7 +39,7 @@ public class InstantTNTBlock extends TntModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.REDSTONE)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(CustomTNTItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
